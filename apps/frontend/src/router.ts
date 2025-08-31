@@ -1,0 +1,1 @@
+import { createRouter, createWebHistory } from 'vue-router'; import Planner from './pages/Planner.vue'; import Employees from './pages/Employees.vue'; export default createRouter({ history:createWebHistory(), routes:[{path:'/',component:Planner},{path:'/employees',component:Employees}] });

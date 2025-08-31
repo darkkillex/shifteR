@@ -1,0 +1,29 @@
+# Python
+*.py[cod]
+__pycache__/
+*.egg-info/
+.venv/
+.env
+.env.*.local
+
+# Node
+node_modules/
+dist/
+*.log
+
+# Frontend tools
+.vite/
+.cache/
+coverage/
+
+# IDE/OS
+.vscode/*
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# Misc
+*.sqlite3

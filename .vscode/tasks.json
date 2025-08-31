@@ -1,0 +1,1 @@
+{"version":"2.0.0","tasks":[{"label":"Compose Up","type":"shell","command":"cd infra/docker && docker compose up --build"},{"label":"Compose Down","type":"shell","command":"cd infra/docker && docker compose down -v"},{"label":"Seed Demo","type":"shell","command":"cd infra/docker && docker compose exec backend python -m app.seed_demo"}]}
